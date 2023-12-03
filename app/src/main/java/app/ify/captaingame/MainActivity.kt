@@ -36,7 +36,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CaptainGame() {
-    val treasureFound = remember { mutableStateOf(0) }
+   val treasureFound = remember { mutableStateOf(0) }
+   // val treasureFound by remember { mutableStateOf(0) }
     val direction = remember { mutableStateOf("North") }
     val  storm0rTreasure = remember { mutableStateOf("")
 
